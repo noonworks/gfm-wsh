@@ -57,7 +57,8 @@ Hello world github/linguist#1 **cool**, and #1!
 
 header.html
 ```html
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html><head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
 <body>
@@ -76,7 +77,8 @@ cscript //nologo -f test.md -e utf-8 -o result.html --header header.html --foote
 
 result.html
 ```html
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html><head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
 <body>
