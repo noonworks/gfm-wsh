@@ -183,7 +183,7 @@ GFM2HTML.parseArguments = function() {
     var objArgs = WScript.Arguments;
     var params = { text:null, file:null, rate_limit_mode:false,
         cmd_encoding: 'shift_jis', header:null, footer:null,
-        outfile:'', encoding:'_autodetect_all', token:null }
+        outfile:'', encoding:'_autodetect_all' }
     var flg = '';
     var needFSO = false;
     for (var i = 0; i < objArgs.length; i++) {
@@ -211,7 +211,7 @@ GFM2HTML.parseArguments = function() {
                 params['file'] = objArgs(i);
                 flg = ''; break;
             case '-t':
-                params['token'] = objArgs(i);
+                GFM2HTML.access_token = objArgs(i);
                 flg = ''; break;
             case '-e':
                 params['encoding'] = objArgs(i);
